@@ -1,0 +1,29 @@
+{
+    "version": "",
+    "description": "The mIRC chat application.",
+    "homepage": "https://www.mirc.com/",
+    "license": "proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "",
+            "hash": ""
+        }
+    },
+    "installer": {
+        "script": "Start-Process -FilePath \"$dir\\mirc.exe\" -ArgumentList \"/S /DIR=$dir\" -Wait"
+    },
+    "uninstaller": {
+        "script": "Start-Process -FilePath \"$dir\\uninstall.exe\" -ArgumentList \"/S\" -Wait"
+    },
+    "checkver": {
+        "url": "https://www.mirc.com/versions.txt",
+        "regex": "\"mIRC v([0-9]*.[0-9]*.[0-9]*)\""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.mirc.com/get.php#/mirc.exe"
+            }
+        }
+    }
+}
