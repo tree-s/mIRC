@@ -5,8 +5,8 @@
     "license": "proprietary",
     "architecture": {
         "64bit": {
-            "url": "",
-            "hash": ""
+            "url": "https://www.mirc.com/get.php#/mirc.exe",
+            "hash": "99d4bab1587e2f2eed1eae1ec50613fd48021a04b436190625f3d095b1bb9828"
         }
     },
     "installer": {
