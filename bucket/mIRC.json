@@ -5,12 +5,12 @@
     "license": "proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://www.mirc.com/get.php#/mirc.exe",
+            "url": "https://www.mirc.com/get.php#/installer.exe",
             "hash": "99d4bab1587e2f2eed1eae1ec50613fd48021a04b436190625f3d095b1bb9828"
         }
     },
     "installer": {
-        "script": "Start-Process -FilePath \"$dir\\mirc.exe\" -ArgumentList \"/S /D=$dir\" -Wait"
+        "script": "Start-Process -FilePath \"$dir\\installer.exe\" -ArgumentList \"/S /D=$dir\" -Wait"
     },
     "uninstaller": {
         "script": "Start-Process -FilePath \"$dir\\uninstall.exe\" -ArgumentList \"/S\" -Wait"
@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.mirc.com/get.php#/mirc.exe"
+                "url": "https://www.mirc.com/get.php#/installer.exe"
             }
         }
     }
