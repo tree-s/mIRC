@@ -5,8 +5,7 @@
     "license": "https://www.mirc.com/eula.html",
     "architecture": {
         "64bit": {
-            "url": "https://www.mirc.com/get.php#/installer.exe",
-            "hash": "99d4bab1587e2f2eed1eae1ec50613fd48021a04b436190625f3d095b1bb9828"
+            "url": "https://www.mirc.com/get.php#/installer.exe"
         }
     },
     "installer": {
@@ -20,10 +19,5 @@
         "regex": "mIRC v([0-9]*.[0-9]*.[0-9]*)"
     },
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://www.mirc.com/get.php#/installer.exe"
-            }
-        }
     }
 }
