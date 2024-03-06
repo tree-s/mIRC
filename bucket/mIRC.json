@@ -19,6 +19,8 @@
         "regex": "mIRC v([\\d\\.]+)"
     },
     "autoupdate": {
-        "hash": "sha256"
+        "hash": {
+            "mode": "download",
+        }
     }
 }
