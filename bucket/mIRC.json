@@ -20,7 +20,7 @@
     },
     "autoupdate": {
         "hash": {
-            "mode": "download",
+            "mode": "download"
         }
     }
 }
