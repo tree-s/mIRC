@@ -19,8 +19,10 @@
         "regex": "mIRC v([\\d\\.]+)"
     },
     "autoupdate": {
-        "64bit": {
-            "url": "https://www.mirc.com/get.php"
+        "architecture": {
+            "64bit": {
+                "url": "https://www.mirc.com/get.php"
+            }
         },
         "hash": {
             "mode": "download"
