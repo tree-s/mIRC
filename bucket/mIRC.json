@@ -5,7 +5,8 @@
     "license": "https://www.mirc.com/eula.html",
     "architecture": {
         "64bit": {
-            "url": "https://www.mirc.com/get.php#/installer.exe"
+            "url": "https://www.mirc.com/get.php#/installer.exe",
+            "hash": "dummy"
         }
     },
     "installer": {
