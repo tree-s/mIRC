@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.mirc.com/get.php"
+                "url": "https://www.mirc.com/get.php#/installer.exe"
             }
         },
         "hash": {
